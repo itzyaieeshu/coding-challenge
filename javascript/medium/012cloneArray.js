@@ -1,8 +1,6 @@
 const clone = (arr) => {
   const result = [];
-  for (let i = 0; i < arr.length; i++) {
-    result.push(arr[i]);
-  }
+  arr.forEach((element) => { result.push(element); });
   result.push(arr);
   return result;
 };
