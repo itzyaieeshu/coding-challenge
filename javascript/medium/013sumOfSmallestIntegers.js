@@ -1,7 +1,12 @@
 const sumTwoSmallestNums = (arr) => {
   arr.sort((a, b) => a - b);
-  for (let i = 0; i < arr.length; i++) {
-    if (Math.sign(arr[i]) === -1) { arr.splice(i, 1); }
+  let i = 0;
+  while (i<arr.length) {
+    if (Math.sign(arr[i]) === -1) {
+      arr.splice(i, 1);
+    } else {
+      i++;
+    }
   }
   return arr[0] + arr[1];
 };
