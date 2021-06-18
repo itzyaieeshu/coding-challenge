@@ -1,16 +1,14 @@
-let oddishOrEvenish = (num) => {
-    let arr = num.toString().split("")
-    let sum = 0
-    for( let i = 0; i < arr.length; i++ ){
-        sum += parseInt( arr[i], 10 ) 
-    }
-    if (sum % 2 === 0) {
-        return "evenish"
-    } else {
-        return "oddish"
-    }
-}
-
+const oddishOrEvenish = (num) => {
+  const arr = num.toString().split('');
+  let sum = 0;
+  for (let i = 0; i < arr.length; i++) {
+    sum += parseInt(arr[i], 10);
+  }
+  if (sum % 2 === 0) {
+    return 'evenish';
+  }
+  return 'oddish';
+};
 
 // arr.forEach(element => {
 //     sum += parseInt( element, 10 )

@@ -7,6 +7,7 @@ const countTrue = (array) => {
   });
   return repeats;
 };
+module.exports = countTrue;
 
 // How Much is True?
 // Create a function which returns the number of true values there are in an array.

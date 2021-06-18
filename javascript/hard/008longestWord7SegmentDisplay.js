@@ -1,16 +1,13 @@
-let longest7SegmentWord = (arr) => {
-    let result = ""
-	let sortedArray = arr.sort(function(a, b) {
-        return a.length - b.length;
-      });
-    for (let i=0; i<sortedArray.length; i++) {
-        if (!sortedArray[i].match(/[kmvwx]/)) {
-            result = sortedArray[i]
-        }
+const longest7SegmentWord = (arr) => {
+  let result = '';
+  const sortedArray = arr.sort((a, b) => a.length - b.length);
+  for (let i = 0; i < sortedArray.length; i++) {
+    if (!sortedArray[i].match(/[kmvwx]/)) {
+      result = sortedArray[i];
     }
-    return result
-}
-
+  }
+  return result;
+};
 
 // Longest Word in a 7 Segment Display
 // Given an array of words, return the longest word which can fit on a 7 segment display.

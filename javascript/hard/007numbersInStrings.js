@@ -1,29 +1,29 @@
-let numInStr = (arr) => {
-    for (i=0; i<=arr.length-1; i++) {
-        if (!arr[i].match(/[0-9]/)) {
-            arr.splice(i, 1)
-        }
+const numInStr = (arr) => {
+  for (i = 0; i <= arr.length - 1; i++) {
+    if (!arr[i].match(/[0-9]/)) {
+      arr.splice(i, 1);
     }
-    return arr
-}
+  }
+  return arr;
+};
 
-let numInStr = (arr) => {
-    let num = "0123456789"
-    let containsNumber = false
-    for (let i=0; i<=arr.length-1; i++) {
-        let str = arr[i]
-        for (let j=0; j<=str.length-1; j++){
-            if (num.includes(str.charAt(j))) {
-                containsNumber = true
-            }
-        }
-        if (!containsNumber) {
-            arr.splice(i, 1)
-        }
-        containsNumber = false
+const numInStr2 = (arr) => {
+  const num = '0123456789';
+  let containsNumber = false;
+  for (let i = 0; i <= arr.length - 1; i++) {
+    const str = arr[i];
+    for (let j = 0; j <= str.length - 1; j++) {
+      if (num.includes(str.charAt(j))) {
+        containsNumber = true;
+      }
     }
-    return arr
-}
+    if (!containsNumber) {
+      arr.splice(i, 1);
+    }
+    containsNumber = false;
+  }
+  return arr;
+};
 
 // Numbers in Strings
 

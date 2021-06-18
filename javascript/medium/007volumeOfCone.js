@@ -1,7 +1,8 @@
 const coneVolume = (h, r) => Math.round(100 * (Math.PI * r * r * (h / 3))) / 100;
 
 // Volume of a Cone
-// Create a function that takes the height and radius of a cone as arguments and returns the volume of the cone rounded to the nearest hundredth.
+// Create a function that takes the height and radius of a cone as arguments and
+// returns the volume of the cone rounded to the nearest hundredth.
 
 // Volume of a Cone Image
 

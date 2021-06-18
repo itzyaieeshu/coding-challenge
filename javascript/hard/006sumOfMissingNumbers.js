@@ -1,12 +1,12 @@
-let sumMissingNumbers = (arr) => {
-    let sum = 0
-    for( let i = Math.min(...arr); i <= Math.max(...arr); i++ ){
-        if (!arr.includes(i)) {
-            sum += i
-        }
+const sumMissingNumbers = (arr) => {
+  let sum = 0;
+  for (let i = Math.min(...arr); i <= Math.max(...arr); i++) {
+    if (!arr.includes(i)) {
+      sum += i;
     }
-    console.log(sum)
-}
+  }
+  console.log(sum);
+};
 
 // Sum of Missing Numbers
 // Create a function that returns the sum of missing numbers from the given array.

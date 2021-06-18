@@ -1,11 +1,11 @@
-let getDays = (startDate, endDate) => {
-    const start = startDate
-    const end = endDate
-    const day = 1000*60*60*24
-    const difference = end.getTime() - start.getTime()
-    const days = Math.round(difference/day)
-    return days
-}
+const getDays = (startDate, endDate) => {
+  const start = startDate;
+  const end = endDate;
+  const day = 1000 * 60 * 60 * 24;
+  const difference = end.getTime() - start.getTime();
+  const days = Math.round(difference / day);
+  return days;
+};
 
 // How Many Days Between Two Dates
 // Create a function that takes two dates and returns the number of days between the first and second date.
@@ -16,13 +16,11 @@ let getDays = (startDate, endDate) => {
 //   new Date("June 20, 2019")
 // ) ➞ 6
 
-
 // getDays(
 //   new Date("December 29, 2018"),
 //   new Date("January 1, 2019")
 // ) ➞ 3
 // // Dates may not all be in the same month/year.
-
 
 // getDays(
 //   new Date("July 20, 2019"),
