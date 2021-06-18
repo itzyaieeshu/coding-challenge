@@ -7,6 +7,7 @@ const countBoomerangs = (arr) => {
   }
   return num;
 };
+module.exports = countBoomerangs
 
 // let countBoomerangs = (arr) => {
 //     let num = 0
