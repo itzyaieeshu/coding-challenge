@@ -1,3 +1,4 @@
 .DS_Store
 javascript/node_modules
 javascript/hard/.DS_Store
+javascript/tests/coverage
