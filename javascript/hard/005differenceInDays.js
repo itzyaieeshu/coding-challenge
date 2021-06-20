@@ -6,6 +6,7 @@ const getDays = (startDate, endDate) => {
   const days = Math.round(difference / day);
   return days;
 };
+module.exports = getDays;
 
 // How Many Days Between Two Dates
 // Create a function that takes two dates and returns the number of days between the first and second date.

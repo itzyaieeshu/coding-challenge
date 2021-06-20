@@ -5,8 +5,9 @@ const sumMissingNumbers = (arr) => {
       sum += i;
     }
   }
-  console.log(sum);
+  return sum;
 };
+module.exports = sumMissingNumbers;
 
 // Sum of Missing Numbers
 // Create a function that returns the sum of missing numbers from the given array.

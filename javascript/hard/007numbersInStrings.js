@@ -1,5 +1,5 @@
 const numInStr = (arr) => {
-  for (i = 0; i <= arr.length - 1; i++) {
+  for (let i = 0; i < arr.length; i++) {
     if (!arr[i].match(/[0-9]/)) {
       arr.splice(i, 1);
     }
@@ -24,7 +24,10 @@ const numInStr2 = (arr) => {
   }
   return arr;
 };
-
+module.exports = {
+  numInStr,
+  numInStr2,
+};
 // Numbers in Strings
 
 // Create a function that takes an array of strings and returns an array with only the strings that have numbers in them. If there are no strings containing numbers, return an empty array.

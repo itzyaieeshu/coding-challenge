@@ -6,7 +6,7 @@ const nearestVowel = (char) => {
   const closest = [0, 4, 8, 14, 20].reduce((a, b) => (Math.abs(b - alphabet.indexOf(char)) < Math.abs(a - alphabet.indexOf(char)) ? b : a));
   return alphabet[closest];
 };
-
+module.exports = nearestVowel;
 // Nearest Vowel
 // Given a letter, created a function which returns the nearest vowel to the letter. If two vowels are equidistant to the given letter, return the earlier vowel.
 

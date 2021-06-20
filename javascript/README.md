@@ -1,4 +1,4 @@
-### Edabit coding challenges - Javascript
+# Edabit coding challenges - Javascript
 This folder contains the solution for coding challenge problems from edabit. In addition, automated testing(Jest) scripts for the solutions also included. 
 
 ## Installation
@@ -17,7 +17,7 @@ Note: This test produces coverage report under tests folder. you can check the c
 
 or 
 
-If you have live-server installed, run the below command.
+If you have live-server installed already, run the below command.
 
 ```
 npm run test-report

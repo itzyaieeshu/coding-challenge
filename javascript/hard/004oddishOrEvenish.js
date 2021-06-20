@@ -5,10 +5,11 @@ const oddishOrEvenish = (num) => {
     sum += parseInt(arr[i], 10);
   }
   if (sum % 2 === 0) {
-    return 'evenish';
+    return 'Evenish';
   }
-  return 'oddish';
+  return 'Oddish';
 };
+module.exports = oddishOrEvenish;
 
 // arr.forEach(element => {
 //     sum += parseInt( element, 10 )

@@ -9,10 +9,11 @@ const convert = (input) => {
     const c = Math.round(Number(value[0] - 32) * (5 / 9));
     result = `${c.toString()}°C`;
   } else {
-    result = 'error';
+    result = 'Error';
   }
   return result;
 };
+module.exports = convert;
 
 // Temperature Converter
 // Create a function that converts Celsius to Fahrenheit and vice versa.

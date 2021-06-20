@@ -8,6 +8,7 @@ const longest7SegmentWord = (arr) => {
   }
   return result;
 };
+module.exports = longest7SegmentWord;
 
 // Longest Word in a 7 Segment Display
 // Given an array of words, return the longest word which can fit on a 7 segment display.
