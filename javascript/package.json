@@ -2,9 +2,10 @@
   "name": "javascript-coding-challenge",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "",
   "scripts": {
-    "test": "jest --watchAll"
+    "test": "jest --watchAll",
+    "test-report": "live-server --open=/tests/coverage/lcov-report/"
   },
   "author": "Mohamed Yaieeshu Muthalif",
   "license": "ISC",
