@@ -5,6 +5,8 @@ const count = (int) => {
   return int.toString().length;
 };
 
+module.exports = count;
+
 // Integer Digits Count
 // Create a function that counts the integer's number of digits.
 
