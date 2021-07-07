@@ -5,7 +5,7 @@ const concat = (...arr) => {
   const result = str.split('').map((item) => parseInt(item, 10));
   return result;
 };
-
+module.exports = concat;
 // Concatenate Variable Number of Input Arrays
 // Create a function that concatenates n input arrays, where n is variable.
 
