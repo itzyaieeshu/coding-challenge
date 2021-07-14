@@ -1,5 +1,6 @@
 const weight = (r, h) => Math.round((Math.PI * r * r * h) * 0.1) / 100;
 
+module.exports = weight;
 // How Heavy Is It?
 // Given radius r and height h (in cm), calculate the mass of a cylinder when
 // it's filled with water and the cylinder itself doesn't weigh anything. The desired output should
