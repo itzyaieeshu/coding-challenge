@@ -2,6 +2,7 @@ const perimeter = (l, num) => ((l === 's') ? 4 * num
   : (l === 'c') ? 6.28 * num
     : 'Enter valid input');
 
+module.exports = perimeter;
 // Perimeters with a Catch
 // Write a function that takes a number and returns the perimeter of either a circle
 // or a square. The input will be in the form (letter l, number num) where the letter will
