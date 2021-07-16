@@ -16,6 +16,7 @@ const replaceVowel = (str) => {
   return arr.join('');
 };
 
+module.exports = replaceVowel;
 // Replace Vowel with Another Character
 // Create a function that takes a string and replaces the vowels with another character.
 
