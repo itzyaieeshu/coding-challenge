@@ -6,6 +6,8 @@ const evenLast = (arr) => {
   return (result !== 0) ? (result * arr[arr.length - 1]) : result;
 };
 
+module.exports = evenLast;
+
 // Even Index Elements in Array
 // Create a function that takes an array of integers and returns the sum of all the integers that have an even index, multiplied by the integer at the last index.
 
