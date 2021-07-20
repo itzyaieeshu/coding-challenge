@@ -7,3 +7,7 @@ test('evenLast([1, 3, 3, 1, 10]) returns 140', () => {
 test('evenLast([-11, 3, 3, 1, 10]) returns 20', () => {
     expect(evenLast([-11, 3, 3, 1, 10])).toBe(20);
 });
+
+test('evenLast([]) returns 0', () => {
+    expect(evenLast([])).toBe(0);
+});
