@@ -11,6 +11,7 @@ const sumTwoSmallestNums = (arr) => {
   return arr[0] + arr[1];
 };
 
+module.exports = sumTwoSmallestNums;
 // Return the Sum of the Two Smallest Numbers
 // Create a function that takes an array of numbers and returns
 // the sum of the two lowest positive numbers.
