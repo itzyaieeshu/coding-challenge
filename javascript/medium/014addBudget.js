@@ -4,6 +4,8 @@ const getBudgets = (arr) => {
   return sum;
 };
 
+module.exports = getBudgets;
+
 // Get Sum of People's Budget
 // Create the function that takes an array with objects and returns the sum of people's budgets.
 
