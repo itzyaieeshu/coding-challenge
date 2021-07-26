@@ -1,5 +1,7 @@
 const marathonDistance = (arr) => ((arr.reduce((a, b) => Math.abs(a) + Math.abs(b)) === 25));
 
+module.exports = marathonDistance;
+
 // 25-Mile Marathon
 // Mary wants to run a 25-mile marathon. When she attempts to sign up for the marathon, she notices the sign-up sheet doesn't directly state the marathon's length. Instead, the marathon's length is listed in small, different portions. Help Mary find out how long the marathon actually is.
 
